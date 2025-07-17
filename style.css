@@ -1,3 +1,4 @@
+/* Tu estilo base (sin cambios) */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f0f2f5;
@@ -73,4 +74,12 @@ h1 {
   width: 100%;
   height: 100%;
   z-index: 0;
+}
+
+/* NUEVO: estilo para ramo aprobado */
+.ramo.aprobado {
+  text-decoration: line-through;
+  background-color: #d4edda;
+  border-left-color: #28a745;
+  opacity: 0.8;
 }
